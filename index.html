@@ -22,19 +22,26 @@
 
     <main>
         <!-- M-01, 02 -->
-        <div class="bg-blue-200 w-9/12 mx-auto mt-12 p-10">
+        <section class="bg-blue-200 w-9/12 mx-auto mt-12 p-10">
+
             <h3 class="text-2xl mb-4 font-semibold p-1">Please Login</h3>
-            <input class="w-9/12 block mb-2 pl-1" type="email" placeholder="your eamil">
-            <!-- 8:35sec -->
-            <input class="block w-9/12 pl-1" type="password" placeholder="password">
 
-            <button class="bg-red-600 text-white mt-5 px-8 py-1 rounded-md hover:bg-green-700">Submit</button>
-        </div>
+            <div>
+                <input class="w-9/12 block mb-2 pl-1" type="email" id="user-email" placeholder="your eamil">
+                <!-- 8:35sec -->
+                <input class="block w-9/12 pl-1" type="password" id="user-password" placeholder="password">
 
-        <!-- M-03, 02 -->
+                <button id="btn-submit"
+                    class="bg-red-600 text-white mt-5 px-8 py-1 rounded-md hover:bg-green-700">Submit</button>
+            </div>
+        </section>
+
+
     </main>
 
 
+    <!-- script added -->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

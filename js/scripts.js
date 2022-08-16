@@ -15,10 +15,11 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // console.log(email, password);
 
     if (email === 'rasel@gmail.com' && password === 'secret25') {
-        console.log('valid user');
+        // console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('invalid user');
+        alert('invalid password or user name');
     }
 
 
